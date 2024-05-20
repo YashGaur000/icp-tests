@@ -19,9 +19,9 @@ function App() {
       <br />
       <br />
       <form action="#" onSubmit={handleSubmit}>
-        <label htmlFor="name">Enter your name: &nbsp;</label>
+        <label htmlFor="name">Jaldi Jaldi naam likho: &nbsp;</label>
         <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
+        <button type="submit">dabana mat</button>
       </form>
       <section id="greeting">{greeting}</section>
     </main>
