@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/firstcan_backend"
+]
+resolver = "2"

@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "firstcan_backend": {
+      "candid": "src/firstcan_backend/firstcan_backend.did",
+      "package": "firstcan_backend",
+      "type": "rust"
+    },
+    "firstcan_frontend": {
+      "dependencies": [
+        "firstcan_backend"
+      ],
+      "source": [
+        "src/firstcan_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "firstcan_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
